@@ -16,33 +16,31 @@ and give the compliance devaition status for the Cloud Environment due to the de
 
 The Project can be extended as a plying mechanism between Log Aggregation System and Compliance Check Systems to Continuosly monitor the Compliance 
 
-Status of environements and remediate/handle Security Events before the event affect the Compliance Status of the organizations. 
+Status of environements and remediate/handle Security Events before the event affect the Compliance Status of the organizations. <br />
 
 
-Dependecies and Technologies used: 
+Dependecies and Technologies used: <br />
 
-● AWS Elastic Compute service
-● Python 2.7.6
-● Javascript
-● spark-1.1.0
-● elasticsearch-1.7.2
-● Data­Driven Documents(D3)
-● rsyslog
-● graylog-1.2.2
-● MongoDB shell version: 2.6.11b
-● kibana-4.1.0-linux-x64
-● elasticsearch-hadoop-2.1.0.Beta2.jar  
-● elasticsearch-hadoop-2.1.0.Beta2.jar
-● java version "1.8.0_66" 
-● Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
+● AWS Elastic Compute service <br />
+● Python 2.7.6 <br />
+● Javascript <br />
+● spark-1.1.0 <br />
+● elasticsearch-1.7.2 <br />
+● Data­Driven Documents(D3) <br />
+● rsyslog <br />
+● graylog-1.2.2 <br />
+● MongoDB shell version: 2.6.11b <br />
+● kibana-4.1.0-linux-x64 <br />
+● elasticsearch-hadoop-2.1.0.Beta2.jar   <br />
+● java version "1.8.0_66"  <br />
+● Java(TM) SE Runtime Environment (build 1.8.0_66-b17) <br />
 
 
-The Following Project Developed Developed as a part of CMPE-272 Course Work San Jose State University Team under the guidance of Professor Rakesh Ranjan 
-● Saurabh Phaltane 
-● Mayuri Sapre
-● Ruiqi Cheng	
-● Sandhya Ramanarayanan
-
+The Following Project Developed Developed as a part of CMPE-272 Course Work San Jose State University Team under the guidance of Professor Rakesh Ranjan <br />
+● Saurabh Phaltane <br />
+● Mayuri Sapre <br />
+● Ruiqi Cheng	<br />
+● Sandhya Ramanarayanan <br />
 
 
    
