@@ -37,9 +37,7 @@ Dependecies and Technologies used:
 ● Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
 
 
-The Following Project Developed Developed as a part of CMPE-272 Course Work San Jose State University Team under the guidance of Professor Rakesh 
-
-Ranjan 
+The Following Project Developed Developed as a part of CMPE-272 Course Work San Jose State University Team under the guidance of Professor Rakesh Ranjan 
 ● Saurabh Phaltane 
 ● Mayuri Sapre
 ● Ruiqi Cheng	
