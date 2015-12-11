@@ -38,7 +38,7 @@ Screen Shots
 
 ![High Level Compliance Deviation Status View of CIO's](https://github.com/phaltanesaurabh/CMPE272-CloudComplianceDeviation/blob/master/blob/master/CIOView.png)
 
-![High Level Compliance Deviation Status View of CIO's](https://github.com/phaltanesaurabh/CMPE272-CloudComplianceDeviation/blob/master/blob/master/ComlplianceView.png)Welcome to the CMPE272-CloudComplianceDeviation wiki!
+![High Level Compliance Deviation Status View of CIO's](https://github.com/phaltanesaurabh/CMPE272-CloudComplianceDeviation/blob/master/blob/master/ComlplianceView.png)
 
    
 
