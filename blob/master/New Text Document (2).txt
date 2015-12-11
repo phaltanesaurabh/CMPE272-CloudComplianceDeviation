@@ -1,0 +1,50 @@
+Gartner: Companies Spend Just 3.8% of Cloud Budgets on Security
+Gartner predicts, “Through 2020, 95 percent of cloud security failures will be the customer’s fault.”
+Meet compliance and properly mitigate risks by defining cloud usage policies while working with your DLP (data loss prevention) solutions
+
+
+The cost of becoming PCI DSS Compliant depends on a number of factors including your business type, number of transactions processed annually, existing IT infrastructure, and current credit/debit card processing and storage practices. Gartner estimates that during 2007, the nation's largest merchants, classified as Level 1 (processing in excess of 6 million transactions of a single card type per year), will spend $125,000 assessing the scope of required PCI-related work and another $568,000 to meet the requirements.
+
+As an example, Robin Sidel and Pui-Wing Tam of the WSJ recently reported that Guitar Center, a national retailer of 210 stores, recently spent nearly $500,000 to become compliant. Gartner also concluded that Level 2 merchants, those processing between 1 and 6 million annual transactions, will spend $105,000 to determine scope and another $267,000 for compliance.
+
+
+FEDRAMP
+A company should be prepared to pay a bare minimum of $15,000 for a comprehensive audit, but, could range upwards of $150,000 or more as audit time and complexity increases along with company size.
+
+
+
+Over 300 security controls, 1,000s of pages of documentation, and a rigorous assessment stand between you and a FedRAMP or Agency cloud service authorization. It's stressful. It's expensive. And, if you're a CSP who wants to do business with the Federal Government, it's critical for your future.
+
+
+
+Healthcare IT spending is to hit $34.5 billion in 2014 as a result of technology advances to meet regulatory demands, according to a study conducted by Technology Business Research (TBR).
+
+
+
+
+
+
+A Famous Data Security Breach & PCI Case Study: Four Years Later
+Heartland Payment Systems (HPS) became famous in January 2009 for something it didn’t want to be famous for: it was the victim of one of the largest data security breaches in U.S. history, with tens of millions of cardholder records possibly lost – the actual number has never been determined. The malware that surreptitiously stole and stored the account numbers was active for an estimated four months at a time when HPS was processing 100 million transactions per month.
+
+Now, nearly four years later, HPS Chairman and CEO Robert O. Carr is speaking publicly about his company’s experience and the lessons learned. It’s a fascinating and dramatic story – one you didn’t get at the time of the news reports on the breach, one that can only be told now. And it reinforces the adage that being compliant with the Payment Card Industry Data Security Standards (PCI DSS) doesn’t mean you’re secure.
+
+- See more at: http://www.secureworks.com/resources/blog/general-pci-compliance-data-security-case-study-heartland/#sthash.WmPE41n5.dpuf
+
+
+
+
+
+http://www.secureworks.com/resources/blog/general-pci-dss-two-factor-authentication/
+
+
+
+In the Gartner report, which tracked overall PCI compliance investments and PCI-related security risks for companies greater than $250mm, 28 percent of respondents believed that their organization had to spend too much money to comply with PCI standards and 43 percent of respondents had experienced at least one type of security breach.
+
+
+
+
+
+
+
+
