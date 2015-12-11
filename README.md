@@ -35,12 +35,11 @@ The Following Project Developed Developed as a part of CMPE-272 Course Work San 
 Screen Shots 
 
 
-![alt text](ApplicationDashboardSnaphots\CIOView.png "High Level Compliance Deviation Status View of CIO's")
+![Events View Affecting Compliance status View ](https://github.com/phaltanesaurabh/CMPE272-CloudComplianceDeviation/blob/master/blob/master/eventsAffectingComplaince.png)
 
-![alt text](ApplicationDashboardSnaphots\ComlplianceView.png "High Level Compliance Deviation Status View of CIO's")
+![High Level Compliance Deviation Status View of CIO's](https://github.com/phaltanesaurabh/CMPE272-CloudComplianceDeviation/blob/master/blob/master/CIOView.png)
 
-![alt text](ApplicationDashboardSnaphots\eventsAffectingComplaince.png "High Level Compliance Deviation Status View of CIO's")
-
+![High Level Compliance Deviation Status View of CIO's](https://github.com/phaltanesaurabh/CMPE272-CloudComplianceDeviation/blob/master/blob/master/ComlplianceView.png)Welcome to the CMPE272-CloudComplianceDeviation wiki!
 
    
 
