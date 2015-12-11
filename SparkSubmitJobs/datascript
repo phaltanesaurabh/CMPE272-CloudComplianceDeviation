@@ -1,0 +1,53 @@
+#Project CMPE 272 Software Engineering Course San Jose State University 
+
+#!/bin/bash
+
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+
+curl -XDELETE elasticsearch:9200/spark_analytics/analytics
+
+curl -XDELETE elasticsearch:9200/spark_analytics/severe_analytics
+curl -XDELETE elasticsearch:9200/spark_analytics/ip_analytics
+
+
+#spark_analytics/severe_analyticscurl -XDELETE elasticsearch:9200/spark_analytics/analytics
+
+#Deleteing Old Indices in Elasticsearch Data for a refreshed view of Data ,The Engine Dont store any data of Clients environment
+#The Data is refresehed at each interval and analytics data can be stored to backend storage like s3 (Proposed extension)
+
+curl -XPUT elasticsearch:9200/spark_analytics/analytics
+
+#Setting Mapping on elasticSearch 
+
+curl -XPUT elasticsearch:9200/spark_analytics/_mappings/analytics -d '{ "dynamic_templates": [ { "string_fields": { "mapping": { "type": "string", "fields": { "raw": { "index": "not_analyzed", "ignore_above": 100, "type": "string" } } }, "match_mapping_type": "string", "match": "*" } } ] }'
+
+#The different spark MapReduce Scripts are on a exploratary version and can be ehanced ahead with advnaced analytics and possibly connecting the filters \
+#with truth database of the product. 
+
+#Spark Submit Jobs invoked 
+
+./bin/spark-submit --master local[4] --jars elasticsearch-hadoop-2.1.0.Beta2.jar submit.py
+
+sleep 2
+
+./bin/spark-submit --master local[4] --jars elasticsearch-hadoop-2.1.0.Beta2.jar submit2.py
+
+sleep 2
+
+./bin/spark-submit --master local[4] --jars elasticsearch-hadoop-2.1.0.Beta2.jar submit3.py
+
+sleep 2
+
+./bin/spark-submit --master local[4] --jars elasticsearch-hadoop-2.1.0.Beta2.jar submit4.py
+
+sleep 2
+
+./bin/spark-submit --master local[4] --jars elasticsearch-hadoop-2.1.0.Beta2.jar submit5.py
+
+sleep 2
+
+./bin/spark-submit --master local[4] --jars elasticsearch-hadoop-2.1.0.Beta2.jar submit6.py
+
+
+./bin/spark-submit --master local[4] --jars elasticsearch-hadoop-2.1.0.Beta2.jar submit7.py
