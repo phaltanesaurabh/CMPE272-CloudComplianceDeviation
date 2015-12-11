@@ -32,6 +32,14 @@ The Following Project Developed Developed as a part of CMPE-272 Course Work San 
 ● Sandhya Ramanarayanan <br />
 
 
+Screen Shots 
+
+
+![alt text](ApplicationDashboardSnaphots\CIOView.png "High Level Compliance Deviation Status View of CIO's")
+
+![alt text](ApplicationDashboardSnaphots\ComlplianceView.png "High Level Compliance Deviation Status View of CIO's")
+
+![alt text](ApplicationDashboardSnaphots\eventsAffectingComplaince.png "High Level Compliance Deviation Status View of CIO's")
 
 
    
