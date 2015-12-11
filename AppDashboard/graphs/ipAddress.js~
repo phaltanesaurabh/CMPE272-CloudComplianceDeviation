@@ -1,0 +1,99 @@
+
+jQuery(document).ready(function() {
+
+var ajax_data;
+var data= [];
+var high_charts;
+
+$.ajax({
+        type: "POST",
+        dataType: "json",
+      url: "http://52.23.100.76/ccms/get_data.php", // PHP file is hosted on CCMS server for fetching the elasticsearch Data // Just replace the query at this location with relevant query filter 
+      data: ajax_data,
+      success: function(ajax_data) {
+          var obj = $.parseJSON(ajax_data);
+   
+      for(i=0;i<obj['hits']['hits'].length;i++)
+          {
+          var result = obj['hits']['hits'][i]['_source'];
+  	
+          var object = new Object();
+		  object.name = result['val'];             //set the data from the received parsed JSON Objects as per graph requirements 
+		  object.y = result['count'];
+	      data.push(object);                       // The data is pushed to the graph.
+
+
+        }
+
+	high_charts = get_chart_structure();
+
+console.log(high_charts);
+	    high_charts['series'][0]['data']= data;
+        $('#ipaddress').highcharts(high_charts);
+
+    }
+
+ 
+});
+
+});
+
+function get_chart_structure()         //function creates the Object template of highChart for plotting the graph
+{
+    high_charts=  new Object({
+    chart: {
+      plotBackgroundColor: null,
+      plotBorderWidth: null,
+      plotShadow: false,
+      type: 'pie'
+    },
+    title: {
+      text: 'IP Addresses Detected for Invalid user Login Attempts'
+    },
+    tooltip: {
+      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+      pie: {
+        allowPointSelect: true,
+        cursor: 'pointer',
+        dataLabels: {
+          enabled: true,
+          format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+          style: {
+            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+          }
+        }
+      }
+    },
+	    
+    series: [{
+      name: 'Brands',
+      colorByPoint: true,
+	 
+     
+    }]
+	
+	
+  });
+
+ return high_charts;
+
+}
+ 
+/*function get_dataAndPlot(){       //function initiates the ajax call and on response creates the datasource for the graph
+
+
+
+
+}*/
+  
+function create_graph()
+{
+
+get_dataAndPlot();  // call the ajax request and create the chart
+  
+$('#ipaddress').highcharts(high_charts);  // append the chart to the div.
+
+}
+
